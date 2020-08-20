@@ -1,0 +1,54 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+{"logLevel":"debug","message":"gauge-java took 1705milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1705"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54924"}
+{"logLevel":"info","message":"Listening on port:54924"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'HomePageTest.openProject' and 'HomePageTest.openProject'"}
+{"logLevel":"debug","message":"Found Open mobile app in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.ClickedOkey' and 'TicketPageTest.ClickedOkey'"}
+{"logLevel":"debug","message":"Found Clicked okey in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.ChooseTicket' and 'TicketPageTest.ChooseTicket'"}
+{"logLevel":"debug","message":"Found Choose economic fly in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.OneWay' and 'TicketPageTest.OneWay'"}
+{"logLevel":"debug","message":"Found One way clicked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.SearchFly' and 'TicketPageTest.SearchFly'"}
+{"logLevel":"debug","message":"Found Search Fly in current project scope."}
+{"logLevel":"debug","message":"Comparing 'HomePageTest.clickByTicket' and 'HomePageTest.clickByTicket'"}
+{"logLevel":"debug","message":"Found Click Buy Ticket in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.ClickContinue' and 'TicketPageTest.ClickContinue'"}
+{"logLevel":"debug","message":"Found Click Continue in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.addPerson' and 'TicketPageTest.addPerson'"}
+{"logLevel":"debug","message":"Found Add passanger in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.ChooseDirection' and 'TicketPageTest.ChooseDirection'"}
+{"logLevel":"debug","message":"Found Choose {} to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.list' and 'TicketPageTest.list'"}
+{"logLevel":"debug","message":"Found Listed in current project scope."}
+{"logLevel":"debug","message":"Comparing 'TicketPageTest.SelectDate' and 'TicketPageTest.SelectDate'"}
+{"logLevel":"debug","message":"Found Select date in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSelect date : public void SelectDate()"}
+{"logLevel":"debug","message":"\tListed : public void list()"}
+{"logLevel":"debug","message":"\tOpen mobile app : public void openProject()"}
+{"logLevel":"debug","message":"\tAdd passanger : public void addPerson()"}
+{"logLevel":"debug","message":"\tClick Continue : public void ClickContinue()"}
+{"logLevel":"debug","message":"\tChoose economic fly : public void ChooseTicket()"}
+{"logLevel":"debug","message":"\tClicked okey : public void ClickedOkey()"}
+{"logLevel":"debug","message":"\tOne way clicked : public void OneWay() throws IOException"}
+{"logLevel":"debug","message":"\tSearch Fly : public void SearchFly()"}
+{"logLevel":"debug","message":"\tClick Buy Ticket : public void clickByTicket()"}
+{"logLevel":"debug","message":"\tChoose {} to {} : public void ChooseDirection(String from, String to) throws InterruptedException"}
+Ağu 19, 2020 11:47:42 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open mobile app' using 'class HomePageTest.openProject"}
+{"logLevel":"debug","message":"Executing 'Click Buy Ticket' using 'class HomePageTest.clickByTicket"}
+{"logLevel":"debug","message":"Executing 'One way clicked' using 'class TicketPageTest.OneWay"}
+{"logLevel":"debug","message":"Executing 'Choose {} to {}' using 'class TicketPageTest.ChooseDirection"}
